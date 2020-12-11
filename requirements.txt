@@ -2,7 +2,7 @@ numpy
 pandas
 seaborn
 datetime
-matplotlib.pylot
+matplotlib
 streamlit
 
 
