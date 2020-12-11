@@ -249,7 +249,7 @@ if button=='Sales Description':
         sales_day_total_line.set(xlabel='Transaction Date',ylabel='Total Sales')
         sales_day_total_line.set_title('Total Sales In All Stores:',y=1.02)
         plt.xticks(rotation=10)
-        st.pyplot()
+        st.pyplot(sales_day_total_line)
 
         st.subheader('Total Daily Sales combined in All the Stores based on In Store Sales and Take-away Sales:')
         plt.rcParams['figure.figsize'] = [13, 10]
