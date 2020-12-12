@@ -242,6 +242,7 @@ if button=='Sales Description':
 
     if sales_description == 'All':
 
+        st.set_option('deprecation.showPyplotGlobalUse', False)
         st.subheader('Total Daily Sales combined in All the Stores:')
         plt.rcParams['figure.figsize'] = [13, 10]
         sales_day_total_line = sns.lineplot(x="transaction_date", y="total", data=sales_day_total)
