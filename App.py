@@ -30,7 +30,7 @@ st.markdown('---')
 st.sidebar.subheader('Select the Date of the Analysis:')
 #To filter based on a date
 today = datetime.date.today()
-yesterday = today - datetime.timedelta(days=600)
+yesterday = today - datetime.timedelta(days=650)
 start_date = st.sidebar.date_input('Start date', yesterday)
 end_date = st.sidebar.date_input('End date', today)
 #Change the date to datetime format
